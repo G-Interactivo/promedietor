@@ -1,2 +1,2 @@
-# promedietor-android
-Promedietor Android app
+# Promedietor
+Notes calculation app
