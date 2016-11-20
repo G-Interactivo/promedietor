@@ -5,21 +5,17 @@ import {
   Text,
   View
 } from 'react-native';
+import {Notes} from 'promedietor-react'
 
 export default class Promedietor extends Component {
   render() {
+    console.log('notes', Notes)
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
+        <Notes />
       </View>
     );
   }
